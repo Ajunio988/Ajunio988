@@ -8,6 +8,7 @@ package br.com.alexandrefelix;
 import java.util.Map;
 import java.util.Arrays;
 import java.util.List;
+import java.util.ArrayList;
 
 public class Alexandre {
 
@@ -19,7 +20,7 @@ public class Alexandre {
     return Map.of(
       "university", "UNESA",
       "degree", "Software Engineer",
-      "extracurricular course", "Rocketseat",
+      "extracurricular course", "Rocketseat"
     );
   }
 
@@ -27,11 +28,11 @@ public class Alexandre {
     return Map.of(
     "linkedin",  "https://www.linkedin.com/in/alexandre-felix-ba0aa5237/",
     "Instagram", "https://www.instagram.com/alexandrefelix_021",
-    "GitHub",    "https://www.github.com/Ajunio988",
+    "GitHub",    "https://www.github.com/Ajunio988"
     );
   }
 
-  public static ArrayList<String> getDailyKnowledge() {
+  public static List<String> getDailyKnowledge() {
     return new ArrayList<>(Arrays.asList(
       "HTML",
       "CSS",
@@ -40,7 +41,7 @@ public class Alexandre {
       "PostgreSQL",
       "Docker",
       "Spring Boot",
-      "AWS - Amazon Web Services",
+      "AWS - Amazon Web Services"
     ));
   }
 
