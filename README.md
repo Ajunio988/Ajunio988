@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public class Alexandre {
 
   public static String getCurrentWorkPosition() {
-    return "Buscando oportunidades de iniciar minha carreira dev";
+    return "Atuando como Analista de Infraestrutura na Studio VS";
   }
   
   public static Map<String, String> getDegree() {
@@ -41,12 +41,14 @@ public class Alexandre {
       "PostgreSQL",
       "Docker",
       "Spring Boot",
-      "AWS - Amazon Web Services"
+      "AWS - Amazon Web Services",
+      "Automação com N8N",
+      "Lógica de Programação"
     ));
   }
 
   public static String getFutureGoal() { 
-    return "Conseguir minha primeira oportunidade para desenvolver minhas habilidades e fazer a diferença.";
+    return "Com a experiência que venho adquirindo no departamento de infraestrutura, venho me aprofundando em Cyber Segurança; Área que almejo à minha trajetória profissional";
   }
 }
   ```
